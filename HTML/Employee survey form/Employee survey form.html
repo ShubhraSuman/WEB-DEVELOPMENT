@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><u>Employee surver form</u></title>
+</head>
+<!-- for background image -->
+<body background="img.jpg" style="border:3px; border-style:solid; border-color:black; padding: 1em;">
+<img src="https://media4.giphy.com/media/l2Je85w1owl6TJC7K/giphy.gif" align="right" width="350" height="350">
+<div align="center" style="font-family:Comic Sans MS">
+<h1>Employee Interests Survey Form</h1>
+<h3 >Enter your name:
+<!-- To take input from user -->
+&nbsp &nbsp &nbsp &nbsp &nbsp
+<input type="text" placeholder="Write your name" >
+</h3>
+<h3>Enter your department:
+&nbsp   
+<input type="text" placeholder="Write your department">
+</h3>
+ 
+<h3> Tell us a little about yourself:
+<!-- For writing lot of text like descriptions with text wrapping,
+if you dont want text wrapping, you can add wrap = "off" (horizontal scrollbar -->
+</h3>
+<textarea name="Comments" rows="3" cols="50" ></textarea>
+<h3>Do you exercise at home?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input type="radio" name="exe" value=2 >No
+</h3>
+<h3>How do you like to read about your favourite topics?</h3>
+<div padding-left="5px">
+<h3>
+<input type="checkbox" name="na" value=1>Books
+<input type="checkbox" name="na" value=2>Online Resources
+<input type="checkbox" name="na" value=3>Phone Apps
+<input type="checkbox" name="na" value=4>Magazines
+</h3>
+</div>
+
+<h3>What genre of movies do you like?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comedy
+<option value=2 >romance
+<option value=3 >thriller
+<option value=4 >horror
+<option value=5 >biopic
+</select>
+</h3>
+<input type=submit value="Submit form" style="background-color:black;color:white;width:150px;
+height:40px; font-size : 20px;">
+</div>
+</body>
+</html>
