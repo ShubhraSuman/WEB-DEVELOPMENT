@@ -1,0 +1,87 @@
+.main_image{
+    background-image:url('img.jpg');
+    height: 100vh;
+    position:relative;
+}
+.bold-text{
+    font-family:Comic Sans MS;
+    font-weight:bold;
+    text-align:center;
+    color:#00b7eb;
+    text-decoration: underline;
+    font-size:2.4rem;
+}
+.p-text{
+    font-family:Comic Sans MS;
+    font-weight:bold;
+    text-align:center;
+    color:white;
+}
+.form-text{
+    font-family:Comic Sans MS;
+    padding: 10px 20px;
+    font-weight:bold;
+    align:center;
+    color:white;
+    border-radius:2rem;
+    width:80%;
+    height:80%;
+}
+.button{
+  background-color: #70d3ee; 
+  border: none;
+  color: white;
+  font-family:Comic Sans MS;
+    font-weight:bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:2rem;
+}
+.make-center{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+h5{
+    color:white;
+    text-align:center;
+}
+.egg-img{  
+    height:400px;
+    width:30%;
+    border: 5px solid black;
+    float: left;
+    padding: 5px;
+}
+.flour-img{
+     height:400px;
+    width:30%;
+border: 5px solid black;
+float: left;
+padding: 5px;
+}
+.chocolate-img{
+     height:400px;
+    width:30%;
+border: 5px solid black;
+float: left;
+padding: 5px;
+}
+.egg-class{
+    font-family:Comic Sans MS;
+    font-weight:bold;
+    color:#00b7eb;
+    font-size:2.4rem;
+    float:left;
+}
+.p-egg-class{
+    font-family:Comic Sans MS;
+    font-weight:bold;
+    color:#00b7eb;
+    font-size:1rem;
+    float:right;
+}
