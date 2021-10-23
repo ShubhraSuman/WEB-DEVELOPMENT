@@ -1,0 +1,121 @@
+CSS
+------------------------
+1) To set color:
+<h2 style="color: red;">
+2)Use CSS Selectors to Style Elements:
+For each h2 to have style color = red
+<style>
+  h2{
+    color:blue;
+  }
+  </style>
+3)Use a CSS Class to Style an Element:
+<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h2 class="blue-text">CatPhotoApp</h2>
+4)Change the Font Size of an Element
+h1 {
+  font-size: 30px;
+}
+5)Set the Font Family of an Element
+6)Specify How Fonts Should Degrade:
+p {
+  font-family: Helvetica(font to use), sans-serif(if Helvetica not available then degrade to sans-serif);
+}
+7)Add Borders Around Your Elements
+-> CSS borders have properties like style, color and width.
+->style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+8)Add Rounded Corners with border-radius:
+.class_name{
+ border-radius:10px;
+ }
+9)Make Circular Images with a border-radius:
+In addition to pixels, you can also specify the border-radius using a percentage.
+.class_name{
+ border-radius:50%;
+ }
+ 10)Give a Background Color to a div Element
+ .green-background {
+  background-color: green;
+}
+11)Set the id of an Element
+<h2 id="cat-photo-app">
+12)Use an id Attribute to Style an Element:
+-> id also has a higher specificity (importance) than a class so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
+->#cat-photo-element {
+  background-color: green;
+}
+13)Adjust the Padding of an Element:
+->An element's padding controls the amount of space between the element's content and its border.
+->.blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+  }
+14)Adjust the Margin of an Element:
+An element's margin controls the amount of space between an element's border and surrounding elements
+15)Add a Negative Margin to an Element:
+.blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+16)Add Different Padding to Each Side of an Element:
+ .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding-top:40px;
+    padding-left:40px;
+    padding-bottom:20px;
+    padding-right:20px;
+  }
+17)Add Different Margins to Each Side of an Element:
+.blue-box {
+    background-color: blue;
+    color: #fff;
+    margin-top:40px;
+    margin-left:40px;
+    margin-bottom:20px;
+    margin-right:20px;
+  }
+18)Use Attribute Selectors to Style Elements:
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+19)Override Styles in Subsequent CSS:
+->Applying multiple class attributes to a HTML element is done with a space between them like this:
+
+class="class1 class2"
+
+->Note: It doesn't matter which order the classes are listed in the HTML element.
+
+However, the order of the class declarations in the <style> section is what is important. The second declaration will always take precedence over the first. Because .blue-text is declared second, it overrides the attributes of .pink-text
+20)Override Class Declarations by Styling ID Attributes:
+
+It doesn't matter whether you declare this CSS above or below pink-text class, since the id attribute will always take precedence.
+
+21)Inline styles will override all the CSS declarations in your style element.
+
+22)Override All Other Styles by using Important:
+when you absolutely need to be sure that an element has specific CSS, you can use !important.
+.pink-text {
+    color: pink !important;
+  }
+23)Use Hex Code to Mix Colors:
+The digit 0 is the lowest number in hex code, and represents a complete absence of color.
+
+The digit F is the highest number in hex code, and represents the maximum possible brightness.
+
+24)Create a custom CSS Variable:
+--penguin-skin: gray;
+background: var(--pengiun-skin);
