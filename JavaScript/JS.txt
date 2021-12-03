@@ -43,3 +43,17 @@ const prop2val = myObj.prop2; //val2
 
 7)Testing Objects for Properties:
 - Sometimes it is useful to check if the property of a given object exists or not. We can use the .hasOwnProperty(propname) method of objects to determine if that object has the given property name
+
+8) To see console in google chrome:
+F12
+
+9) To clear console:
+console.clear()
+
+10)To display error in console:
+console.error(error message )
+
+11)To display warning
+console.warn(msg)
+
+
