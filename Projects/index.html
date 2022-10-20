@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="calculator">
+      <form>
+        <input type="text" class="screen" id = "result">
+        </form>
+      <div class="buttons">
+        <button type="button" name="*" class="first-row" value="*" onclick= display('*')>*</button>
+          <button type="button" name="/" class="first-row" onclick= display('/')>/</button>
+          <button type="button" name="-" class="first-row" onclick= display('-')>-</button>
+          <button type="button" name="+" class="first-row" onclick= display('+')>+</button>
+        
+        <button type="button" name="9" class="second-row" onclick= display('9')>9</button>
+        <button type="button" name="8" class="second-row" onclick= display('8')>8</button>
+        <button type="button" name="7" class="second-row" onclick= display('7')>7</button>
+        <button type="button" name="6" class="second-row" onclick= display('6')>6</button>
+        
+        <button type="button" name="5" class="third-row" onclick= display('5')>5</button>
+        <button type="button" name="4" class="third-row" onclick= display('4')>4</button>
+        <button type="button" name="3" class="third-row" onclick= display('3')>3</button>
+        <button type="button" name="2" class="third-row" onclick= display('2')>2</button>
+        
+         <button type="button" name="1" class="fourth-row" onclick= display('1')>1</button> 
+         <button type="button" name="0" class="fourth-row" onclick= display('0')>0</button> 
+         <button type="button" name="." class="fourth-row" onclick= display(.)>.</button> 
+         <button type="button" name="=" class="fourth-row" onclick=solve()>=</button> 
+        
+         <button type="button" name="C" class="fifth-row" onclick=clearScreen()>C</button> 
+        </div>
+      </section>
+	<script src="index.js"></script>
+  </body>
+</html>
